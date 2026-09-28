@@ -1,0 +1,36 @@
+# Python virtual environments & bytecode
+venv/
+env/
+ENV/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Temporary & Log files
+*.log
+cookies.txt
+scratch_login.json
+*.tmp
+*.bak
+
+# Uploads content (preserve structure)
+uploads/sos_photos/*
+!uploads/sos_photos/.htaccess
+!uploads/sos_photos/.gitkeep
